@@ -1,0 +1,289 @@
+/* Document Styles */
+
+html {
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background-color: #000000;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1310px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Fonts & Headings */
+
+h1 {
+    font-size: 40px;
+    color:#007D7B;
+    display:inline;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0px 5px;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/* Header */
+
+header {
+    background-color: #000000;
+    color:#ffffff;
+    padding: 20px 15px;
+}
+
+nav {
+    display:inline;
+}
+
+nav ul {
+    display: inline;
+    float:right;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+nav ul li {
+    display:inline;
+    padding: 5px 50px;
+}
+
+nav ul li a:hover {
+    color: #007D7B;
+}
+
+.logo-text {
+    color:#ffffff;
+}
+
+/* Main */
+
+.img-small {
+    width: 420px;
+    height: 281px;
+    display:inline-block;
+    margin-right:5px;
+}
+
+.img-large {
+    width: 420px;
+    height: 630px;
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.intro-text {
+    font-size: 20px;
+}
+
+.about-section img {
+    width: 850px;
+    float:left;
+}
+
+.about-text {
+    text-align: right;
+    width: 420px;
+    float:right;
+}
+
+.gallery-intro {
+    clear:both;
+    margin-top: 20px;
+}
+
+.gallery-intro p {
+    margin-left: 5px;
+}
+
+.chile {
+    background-image: url("./img/Chile.png");
+}
+
+.guatemala {
+    background-image: url("./img/Guatemala.png");
+}
+
+.hawaii {
+    background-image: url("./img/Hawaii.png");
+}
+
+.hawaii p {
+    position: relative;
+    top: 245px;
+    left: 290px;
+}
+
+.iran {
+    background-image: url("./img/Iran.png");
+}
+
+.ireland {
+    background-image: url("./img/Ireland.png");
+}
+
+.ireland p {
+    position: relative;
+    top: 590px;
+    left: 270px;
+}
+
+.italy {
+    background-image: url("./img/Italy.png");
+}
+
+.italy p {
+    position: relative;
+    top: 590px;
+    left: 10px;
+}
+
+.moab {
+    background-image: url("./img/Moab-Desert.png");
+}
+
+.moab p {
+    position: relative;
+    top: 245px;
+    left: 220px;
+}
+
+.rocky-mtn {
+    background-image: url("./img/Rocky-Mountains.png");
+}
+
+.switzerland {
+    background-image: url("./img/Switzerland.png");
+}
+
+.switzerland p {
+    position: relative;
+    top: 245px;
+    left: 10px;
+}
+
+.uk {
+    background-image: url("./img/UK.png");
+}
+
+.uk p {
+    position: relative;
+    top: 245px;
+    left: 320px;
+}
+.usa {
+    background-image: url("./img/USA.png");
+}
+
+.wyoming {
+    background-image: url("./img/Wyoming.png");
+}
+
+.location-text {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.white {
+    color: white;
+}
+
+.image-row {
+    margin-bottom: 10px;
+}
+
+
+/* Form */
+
+.form-area {
+    background-color: #000000;
+}
+
+form {
+    width: 850px;
+    margin: 0 auto;
+}
+
+form h2 {
+    margin-top: 10px;
+    color:#ffffff;
+    text-align: center;
+}
+
+form p {
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 15px 0px;
+}
+
+input {
+    font-size: 16px;
+    color: #007D7B;
+    width:100%;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+input[type=submit] {
+    background-color: #007D7B;
+    color: #ffffff;
+    width: 400px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display:block;
+    border: none;
+    margin-top: 10px;
+}
+
+.form-text {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Footer */
+
+footer p {
+    margin: 40px 0px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align:center;
+
+}
